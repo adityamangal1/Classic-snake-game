@@ -26,8 +26,8 @@
 
 #author {
   position: absolute;
-  left: 45px;
-  top: 46.5rem;
+  left: 40px;
+  top: 47.5rem;
   font-size: 20px;
   font-weight: bold;
   transform: scale(1.13);
@@ -81,64 +81,89 @@
   border-radius: 5px;
 }
 
+#btn{
+  position: absolute;
+  background: rgb(240, 204, 0);
+  text-decoration: none;
+  font-family: "Baloo Tamma 2", cursive;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 11px;
+  border: 2px solid black;
+  margin-left: -84.5rem;
+  margin-top: 33rem;
+  padding: 2.5px;
+}
+
+
 .adi {
   position: absolute;
-  bottom: 39rem;
-  right: 94rem;
+  bottom: 33rem;
+  right: 84rem;
   height: 20%;
+  display: none;
 }
 .adi:hover {
-  height: 26%;
-  bottom: 37rem;
+  height: 22%;
+  bottom: 34.5rem;
   animation: color-change 1s linear infinite;
 }
 
 .container {
   position: absolute;
   left: 15px;
-  top: 15rem;
+  top: 14rem;
   font-size: 25px;
   font-weight: bold;
   background: aquamarine;
   font-family: "Baloo Tamma 2", cursive;
   border-radius: 11px;
   border: 2px solid black;
-  height: 51%;
+  height: 53.5%;
   width: 25.6%;
   margin-top: -24px;
 }
 
+.enjoy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: -20px;
+}
+
 .bubble {
   position: absolute;
-  left: 14rem;
-  bottom: 47rem;
+  left: 12.5rem;
+  bottom: 42rem;
   background: rgb(217, 255, 0);
   color: black;
   font-family: "Baloo Tamma 2", cursive;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 13px;
   padding: 6px 10px;
-  border-radius: 5px 0 5px 5px;
+  border-radius: 5px 0px 5px 5px;
+
 }
 
 .bubble:after {
   content: "";
   position: absolute;
-  left: 100%;
-  top: 0;
-  border-top: 8px solid rgb(217, 255, 0);
-  border-right: 12px solid transparent;
+  left: -0%;
+  top: 85%;
+  border-top: 17px solid rgb(217, 255, 0);
+  border-right: 20px solid transparent;
 }
 
 .head2 {
   display: flex;
   justify-content: center;
-  text-decoration: underline;
 }
 p {
   margin: 2px 2px;
   padding: 3px 3px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 @keyframes rain {
