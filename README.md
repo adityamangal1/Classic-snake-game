@@ -2,9 +2,7 @@
 
 Classic snake game made with HTML,css and javascript.
 
-## Demo 🛠️
 
-![Classic snake game demo mp4-high](https://user-images.githubusercontent.com/68494604/126891799-d33ba0e1-088d-4c5b-b11d-c87f306571b5.gif)
 
 ## Game info ⚛️
 ```
