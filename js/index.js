@@ -88,8 +88,10 @@ function GameEngine() {
   foodElement = document.createElement("div");
   foodElement.style.gridRowStart = food.y;
   foodElement.style.gridColumnStart = food.x;
+  foodElement.style.color = 'black';
   foodElement.classList.add("food");
   board.appendChild(foodElement);
+  
 }
 
 let highscore = localStorage.getItem("highscore");
